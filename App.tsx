@@ -10,7 +10,7 @@ import ProfileScreen from './src/screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+function App(): React.JSX.Element {
   return (
     <NavigationContainer>
       <Tab.Navigator>
@@ -23,3 +23,5 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+export default App;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const ProfileScreen = () => {
+const VisitorsScreen = (): React.JSX.Element => {
   return (
     <View style={styles.container}>
-      <Text>Profile Screen</Text>
+      <Text>Visitors Screen</Text>
     </View>
   );
 };
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ProfileScreen;
+export default VisitorsScreen;

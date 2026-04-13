@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const SupportScreen = () => {
+const SupportScreen = (): React.JSX.Element => {
   return (
     <View style={styles.container}>
       <Text>Support Screen</Text>
